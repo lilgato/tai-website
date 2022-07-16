@@ -1,0 +1,68 @@
+
+.thumbnails-row{
+    margin-bottom: 10px;
+    position: relative;
+}
+.thumbnail{
+    width: 100%;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+
+.profile-picture{
+    width: 40px;
+    border-radius: 20px;
+}
+.video-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    
+}
+.video-author, .video-stats{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.video-grid{
+    display:grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+    /* responsive design */
+@media(max-width: 750px){   
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 751px) and (max-width: 1199){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width: 1200px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 3px;
+    
+}
