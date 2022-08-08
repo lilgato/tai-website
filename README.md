@@ -1,2 +1,2 @@
-# tai-website
+# youtube clone
 personal website project
